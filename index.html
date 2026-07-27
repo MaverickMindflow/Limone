@@ -8,18 +8,18 @@
 <body>
 <x-dc>
 <helmet>
-<link rel="stylesheet" href="_ds/organic-31b32741-7b5d-4a9d-8265-586047ebe288/styles.css">
+<link rel="stylesheet" href="ds/organic-31b32741-7b5d-4a9d-8265-586047ebe288/styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap">
-<script src="_ds/organic-31b32741-7b5d-4a9d-8265-586047ebe288/_ds_bundle.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Figtree:wght@400;500;600;700&display=swap">
+<script src="ds/organic-31b32741-7b5d-4a9d-8265-586047ebe288/_ds_bundle.js"></script>
 <script src="image-slot.js"></script>
 <style>
-  :root { --color-bg: #F8F8F6; --font-heading: Georgia, "Times New Roman", serif; }
+  :root { --color-bg: #F8F8F6; --font-heading: "Gilda Display", Georgia, "Times New Roman", serif; }
   body { margin: 0; background: var(--color-bg); }
   a { color: var(--color-accent); }
   a:hover { color: var(--color-accent-700); }
-  h1, h2 { color: #34527d; }
+  h1, h2 { color: #34527d; font-weight: 400; -webkit-text-stroke: 0.4px #34527d; }
   @keyframes lem-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
   @keyframes lem-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
   @keyframes lem-spin-rev { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
@@ -55,7 +55,7 @@
     nav > div:first-child > span:first-child { font-size: 23px !important; -webkit-text-stroke: 0.35px #34527D !important; }
     nav > div:first-child > span:last-child { letter-spacing: 0.24em !important; margin-top: 3px !important; }
     #home .lem-hero-copy { order: 0; position: absolute !important; top: 0 !important; left: 0 !important; right: 0 !important; z-index: 3 !important; transform: none !important; padding: 22px 24px 44px !important; margin-top: 0 !important; }
-    #home .lem-hero-copy h1 { font-size: 29px !important; line-height: 1.04 !important; margin-bottom: 0 !important; position: relative !important; z-index: 2 !important; letter-spacing: -0.015em !important; }
+    #home .lem-hero-copy h1 { font-size: 29px !important; line-height: 0.95 !important; margin-bottom: 0 !important; position: relative !important; z-index: 2 !important; letter-spacing: -0.015em !important; }
     #home .lem-hero-copy .lem-hero-support { display: block !important; }
     #home .lem-hero-copy .lem-hero-support button { display: inline-block !important; margin-top: 36px !important; padding: 10px 14px !important; font-size: 11px !important; letter-spacing: 0.04em !important; }
     #home .lem-hero-copy .lem-hero-support p { font-size: 10px !important; letter-spacing: 0.12em !important; line-height: 1.35 !important; margin: 12px 0 0 !important; max-width: 26ch !important; color: color-mix(in srgb,var(--color-text) 72%,transparent) !important; }
@@ -65,12 +65,12 @@
     .lem-hero-support-m { display: none !important; }
     .lem-hero-support-m p { display: none !important; }
     .lem-hero-support-m button { margin-top: 0 !important; padding: 10px 22px !important; font-size: 11px !important; }
-    .lem-hero-divider { padding-top: 26px !important; padding-bottom: 6px !important; }
+    .lem-hero-divider { padding-top: 26px !important; padding-bottom: 6px !important; margin-bottom: -16px !important; }
     .lem-split > div > span { margin-bottom: 13px !important; }
-    .lem-split h2 { font-size: 29px !important; }
-    .lem-split p { line-height: 1.6 !important; }
+    .lem-split h2 { font-size: 26px !important; }
+    .lem-split p { line-height: 1.6 !important; font-size: 16px !important; }
     .lem-split > div { padding-left: 24px !important; padding-right: 24px !important; padding-bottom: 16px !important; }
-    .lem-split { padding-bottom: 36px !important; }
+    .lem-split { padding-bottom: 14px !important; }
     .lem-split > div > a { padding: 14px 0 !important; margin-top: 16px !important; }
   }
   @media (max-width: 767px) {
@@ -86,8 +86,8 @@
 
   <nav style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 26px clamp(24px,5vw,64px); max-width: 1360px; margin: 0 auto; flex-wrap: wrap;">
     <div style="display:flex; flex-direction:column; line-height:1;">
-      <span style="font-family: var(--font-heading); font-size: 26px; letter-spacing: 0.14em; color: #34527D">LIMONE</span>
-      <span style="font-size:10px; letter-spacing:0.34em; margin-top:6px; color:color-mix(in srgb,var(--color-text) 62%,transparent);">MEDITERRANEAN CAFÉ</span>
+      <span style="font-family: var(--font-heading); font-weight: 700; -webkit-text-stroke: 0.5px #34527D; font-size: 26px; letter-spacing: 0.14em; color: #34527D">LIMONE</span>
+      <span style="font-size:10px; letter-spacing:0.28em; margin-top:6px; color:color-mix(in srgb,var(--color-text) 62%,transparent);">MEDITERRANEAN CAFÉ</span>
     </div>
     <div class="lem-navlinks" style="display:flex; gap:34px; align-items:center; font-size:12px; letter-spacing:0.16em; order:2;">
       <a href="#home" style="text-decoration:none; color:var(--color-text); transition:color 220ms ease-out;" style-hover="color:var(--color-accent-700);">HOME</a>
@@ -124,17 +124,17 @@
     <div class="lem-hero-media" style="position:relative; height:53vw; max-height:740px; overflow:hidden;">
       <div class="lem-hero-imgwrap"><img src="uploads/HeroPhotoWide.jpeg" alt="Mediterranean tabletop with olive-branch jug, lemons and olives on a mosaic-edged table" style="position: absolute; bottom: 0; left: 0; width: 100%; height: auto; display: block; transform: scale(1.1); transform-origin: center bottom"></div>
     <div class="lem-hero-copy" style="position: absolute; max-width: 1360px; width: 100%; margin: 0 auto; padding: clamp(40px,5vw,72px) clamp(24px,5vw,64px); transform: translateX(-20px); left: 21px; top: 46px">
-        <h1 style="font-family:var(--font-heading); font-size:clamp(46px,5.6vw,74px); line-height:1.02; margin:0; letter-spacing:-0.01em;">
+        <h1 style="font-family:var(--font-heading); font-size:clamp(38px,4.6vw,62px); line-height:1.06; margin:0; letter-spacing:-0.01em;">
           <span style="display:block;">Good coffee.</span>
           <span style="display:block;">Sunshine.</span>
           <span style="display:block;">Slow afternoons.</span>
         </h1>
         
-        <div class="lem-hero-support"><p style="font-size:12px; letter-spacing:0.2em; line-height:2; margin:12px 0 0; color:color-mix(in srgb,var(--color-text) 70%,transparent);">A LITTLE CORNER<br class="br-m">OF THE MEDITERRANEAN<br>IN TORONTO.</p><button type="button" onClick="{{ openTeaser }}" style="margin-top: 34px; font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.14em; color: #fff; border: none; border-radius: 0; padding: 16px 34px; cursor: pointer; background-color: #B96D4A; transition: background-color 220ms ease-out" style-hover="background: #a35e3e;">EXPLORE OUR MENU</button></div>
+        <div class="lem-hero-support"><p style="font-size:12px; letter-spacing:0.2em; line-height:2; margin:12px 0 0; color:color-mix(in srgb,var(--color-text) 70%,transparent);">A LITTLE CORNER <br class="br-m">OF THE MEDITERRANEAN<br>IN TORONTO.</p><button type="button" onClick="{{ openTeaser }}" style="margin-top: 34px; font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.14em; color: #fff; border: none; border-radius: 0; padding: 16px 34px; cursor: pointer; background-color: #B96D4A; transition: background-color 220ms ease-out" style-hover="background: #a35e3e;">EXPLORE OUR MENU</button></div>
       </div>
       <div class="lem-hero-support-m" style="display:none; padding:22px clamp(20px,6vw,30px) 8px;"><p style="font-size:12px; letter-spacing:0.2em; line-height:2; margin:0; color:color-mix(in srgb,var(--color-text) 70%,transparent);">A LITTLE CORNER OF THE MEDITERRANEAN IN TORONTO.</p><button type="button" onClick="{{ openTeaser }}" style="margin-top:20px; font-family:var(--font-heading); font-size:12px; letter-spacing:0.14em; color:#fff; border:none; border-radius:0; padding:14px 30px; cursor:pointer; background-color:#B96D4A; transition:background-color 220ms ease-out" style-hover="background:#a35e3e;">EXPLORE OUR MENU</button></div></div><div style="max-width:1360px; margin:0 auto; padding:0 clamp(24px,5vw,64px);">
         
-    </div><div aria-hidden="true" class="lem-hero-divider" style="background:var(--color-bg); display:flex; align-items:center; justify-content:center; gap:22px; padding:46px 0 34px;">
+    </div><div aria-hidden="true" class="lem-hero-divider" style="background:var(--color-bg); display:flex; align-items:center; justify-content:center; gap:22px; padding:40px 0 40px;">
       <span style="width:7px; height:7px; background:#34527d; transform:rotate(45deg);"></span>
       <span style="width:7px; height:7px; background:#B96D4A; transform:rotate(45deg);"></span>
       <span style="width:7px; height:7px; background:#34527d; transform:rotate(45deg);"></span>
@@ -149,7 +149,7 @@
       </figure>
       <div style="grid-column:2; min-width:0; display:flex; flex-direction:column; justify-content:center; padding:8px clamp(32px,4vw,64px);">
         <span style="font-size: 11px; letter-spacing: 0.24em; color: #B96D4A; margin-bottom: 26px">OUR STORY</span>
-        <h2 style="font-family:var(--font-heading); color:#34527d; font-size:clamp(31px,3.36vw,45px); line-height:1.12; margin:0; max-width:16ch;">A little corner of the Mediterranean in Toronto.</h2>
+        <h2 style="font-family:var(--font-heading); color:#34527d; font-size:clamp(31px,3.36vw,45px); line-height:1.12; margin:0; max-width:22ch;">Your little corner<br>of the Mediterranean.</h2>
         <p style="font-size:18px; line-height:1.85; margin:28px 0 0; max-width:42ch; color:color-mix(in srgb,var(--color-text) 78%,transparent);">Inspired by our travels, our roots and the places where life is slower, meals are longer and everyone is welcome.</p>
         <a href="#story" style="margin-top: 30px; font-size: 11px; letter-spacing: 0.16em; text-decoration: none; color: #B96D4A; display: inline-flex; align-items: center; gap: 10px; text-decoration: underline; text-decoration-color: transparent; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 200ms ease-out, text-decoration-color 200ms ease-out" style-hover="color:color-mix(in srgb, var(--color-accent-700) 87%, #000); text-decoration-color:color-mix(in srgb, var(--color-accent-700) 87%, #000);">READ OUR STORY <span aria-hidden="true" style="text-decoration:none;">→</span></a>
       </div>
@@ -180,7 +180,7 @@
       </figure>
       <div style="grid-column:2; min-width:0; display:flex; flex-direction:column; justify-content:center; padding:8px clamp(32px,4vw,64px);">
         <span style="font-size: 11px; letter-spacing: 0.24em; color: #C07B5B; margin-bottom: 26px">TAKE YOUR TIME</span>
-        <h2 style="font-family:var(--font-heading); color:#34527d; font-size:clamp(31px,3.36vw,45px); line-height:1.12; margin:0; max-width:16ch;">Stay awhile — you're in the right place.</h2>
+        <h2 style="font-family:var(--font-heading); color:#34527d; font-size:clamp(31px,3.36vw,45px); line-height:1.12; margin:0; max-width:16ch;">Slow mornings.<br>Long conversations.</h2>
         <p style="font-size:18px; line-height:1.85; margin:28px 0 0; max-width:42ch; color:color-mix(in srgb,var(--color-text) 78%,transparent);">Good coffee, warm conversations and the kind of atmosphere that makes you want to stay.</p>
         <a href="#visit" style="margin-top: 30px; font-size: 11px; letter-spacing: 0.16em; text-decoration: none; color: #B96D4A; display: inline-flex; align-items: center; gap: 10px; text-decoration: underline; text-decoration-color: transparent; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 200ms ease-out, text-decoration-color 200ms ease-out" style-hover="color:color-mix(in srgb, var(--color-accent-700) 87%, #000); text-decoration-color:color-mix(in srgb, var(--color-accent-700) 87%, #000);">DISCOVER OUR SPACE <span aria-hidden="true" style="text-decoration:none;">→</span></a>
       </div>
@@ -191,7 +191,7 @@
     <div class="lem-split" style="display:grid; grid-template-columns:1fr 1fr; gap:0px; align-items:center; height:400px;">
       <div style="grid-column:1; min-width:0; display:flex; flex-direction:column; justify-content:center; padding:8px clamp(32px,4vw,64px);">
         <span style="font-size: 11px; letter-spacing: 0.24em; color: #B96D4A; margin-bottom: 26px">MADE WITH CARE</span>
-        <h2 style="font-family:var(--font-heading); color:#34527d; font-size:clamp(31px,3.36vw,45px); line-height:1.12; margin:0; max-width:16ch;">From our hands to your table.</h2>
+        <h2 style="font-family:var(--font-heading); color:#34527d; font-size:clamp(31px,3.36vw,45px); line-height:1.12; margin:0; max-width:16ch;">From our hands<br>to your table.</h2>
         <p style="font-size:18px; line-height:1.85; margin:28px 0 0; max-width:42ch; color:color-mix(in srgb,var(--color-text) 78%,transparent);">We're a small team that loves what we do. Thank you for being part of our story.</p>
         <a href="#about" style="margin-top: 30px; font-size: 11px; letter-spacing: 0.16em; text-decoration: none; color: #B96D4A; display: inline-flex; align-items: center; gap: 10px; text-decoration: underline; text-decoration-color: transparent; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 200ms ease-out, text-decoration-color 200ms ease-out" style-hover="color:color-mix(in srgb, var(--color-accent-700) 87%, #000); text-decoration-color:color-mix(in srgb, var(--color-accent-700) 87%, #000);">MEET OUR TEAM <span aria-hidden="true" style="text-decoration:none;">→</span></a>
       </div>
